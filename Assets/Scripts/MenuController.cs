@@ -7,7 +7,6 @@ public class MenuController : MonoBehaviour{
     {
         SceneManager.LoadScene("GamePlay");
     }
-
     public void BtnCredits()
     {
         SceneManager.LoadScene("Creditos");
@@ -16,8 +15,13 @@ public class MenuController : MonoBehaviour{
     {
         SceneManager.LoadScene("Configs");
     }
+    public void BtnReturn()
+    {
+        SceneManager.LoadScene("Menu");
+    }
     public void BtnExit()
     {
         Application.Quit();
     }
+
 }
